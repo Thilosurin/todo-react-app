@@ -13,4 +13,5 @@ export interface InitialDataType {
   tasks: { [key: string]: TasksType };
   columns: { [key: string]: ColumnType };
   columnOrder: string[];
+  homeIndex?: number
 }
